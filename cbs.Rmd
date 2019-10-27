@@ -41,7 +41,7 @@ Forbered <- c(
 "Analyse af mere end to grupper",
 "Regression med én forklarende variabel",
 "Regression med flere forklarende variable",
-"Ingen holdundervisning Opsamling fremmøde Lørdag/Søndag 16. og 17. november SP 8:55-16:05",
+"Opsamling fremmøde Lørdag/Søndag 16. og 17. november SP 8:55-16:05",
 "Spørgetime<br>Eksamen torsdag 21. november",
 "Ingen undervisning",
 "Ingen undervisning",
