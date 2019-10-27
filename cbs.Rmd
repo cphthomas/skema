@@ -180,7 +180,7 @@ datatable(skema,style = 'bootstrap', rownames = FALSE, extensions = 'Buttons',cl
     buttons = c('colvis','copy', 'csv', 'excel', 'pdf', 'print'),autoWidth = TRUE,scrollX=TRUE, columnDefs = list(list(width = '10%', targets = list(0,1,4)),list(className = 'dt-left', targets = 0:0))))%>%
   formatStyle('Uge',  backgroundColor = styleInterval(week(Sys.Date()+1-7), c('lightgray', 'lawngreen')), fontWeight = 'bold')%>%
   formatStyle('Blok',  target = 'row',  color = styleEqual(0, 'white'),  backgroundColor = styleEqual(c(0,8), c('lightgray',"red")))%>%
-  formatStyle(columns = c(3,4,5,6), fontSize = '90%')
+  formatStyle(columns = c(3,4,5,6,7), fontSize = '90%')
 
 
 
