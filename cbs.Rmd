@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "CBS Online plan"
 author: ""
 # date: " "
 output: html_document
@@ -118,6 +118,3 @@ datatable(skema,style = 'bootstrap', rownames = FALSE, extensions = 'Buttons',cl
 ```
 
 
-# CBS
-
-Side 2

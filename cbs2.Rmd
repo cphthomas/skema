@@ -1,11 +1,10 @@
 ---
-title: ""
+title: "CBS plan"
 author: ""
 # date: " "
 output: html_document
 ---
 
-# CBS Online plan
 
 ```{r test2, echo=FALSE, message=FALSE}
 library(DT)
@@ -118,6 +117,3 @@ datatable(skema,style = 'bootstrap', rownames = FALSE, extensions = 'Buttons',cl
 ```
 
 
-# CBS
-
-Side 2
