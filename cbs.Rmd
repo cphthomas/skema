@@ -32,7 +32,7 @@ Blok <- c(1,"",2,"",3,"",4,"",5,6,7,"",8,"","","","","")
 Forbered <- c(
 "Databeskrivelse, 1 variabel",
 "Ingen holdundervisning",
-"Databeskrivelse, 2 variable<br>Sandsynlighedsberegning<br>Teoretiske fordelinger",
+"Databeskrivelse, 2 variable Sandsynligheds-beregning<br>Teoretiske fordelinger",
 "Ingen holdundervisning",
 "Analyse af én gruppe (konfidensinterval)<br>Analyse af én gruppe (hypotesetest)",
 "Ingen holdundervisning",
@@ -41,7 +41,7 @@ Forbered <- c(
 "Analyse af mere end to grupper",
 "Regression med én forklarende variabel",
 "Regression med flere forklarende variable",
-"Ingen holdundervisning<br>Opsamling fremmøde Lørdag/Søndag 16. og 17. november SP 8:55-16:05 Henrik Nielsen hn.mes@cbs.dk<br>Se info i kurset Dataanalyse (LECTURE) på Canvas",
+"Ingen holdundervisning Opsamling fremmøde Lørdag/Søndag 16. og 17. november SP 8:55-16:05 Henrik Nielsen hn.mes@cbs.dk<br>Se info i kurset Dataanalyse (LECTURE) på Canvas",
 "Spørgetime en time hvor vi kan samle op på de sidste uklarheder dagen inden Eksamen torsdag 21. november",
 "Ingen undervisning",
 "Ingen undervisning",
@@ -177,17 +177,13 @@ skema <- tibble(Uge,Blok,Ugestart,Mødetid,Forbered,Materiale,pensum)
 colnames(skema) = c('Uge', "Blok",'Ugestart','Mødetid','Forbered', 'Materiale','Pensum Agresti lærebogen')
 
 datatable(skema,style = 'bootstrap', rownames = FALSE, extensions = 'Buttons',class = 'cell-border hover compact', filter = 'top',escape = FALSE,  options = list(searchHighlight = TRUE,pageLength = 18,dom = 'Bfrt',language = list(url = '////cdn.datatables.net/plug-ins/1.10.20/i18n/Danish.json'),
-    buttons = c('colvis','copy', 'csv', 'excel', 'pdf', 'print'),autoWidth = TRUE, columnDefs = list(list(className = 'dt-left', targets = 0:0))))%>%
+    buttons = c('colvis','copy', 'csv', 'excel', 'pdf', 'print'),autoWidth = TRUE,scrollX=TRUE, columnDefs = list(list(width = '10%', targets = list(0,1,4)),list(className = 'dt-left', targets = 0:0))))%>%
   formatStyle('Uge',  backgroundColor = styleInterval(week(Sys.Date()+1-7), c('lightgray', 'lawngreen')), fontWeight = 'bold')%>%
-  formatStyle(
-  'Blok',
-  target = 'row',
-  color = styleEqual(0, 'white'),
-  backgroundColor = styleEqual(c(0,8), c('lightgray',"red"))
-)
+  formatStyle('Blok',  target = 'row',  color = styleEqual(0, 'white'),  backgroundColor = styleEqual(c(0,8), c('lightgray',"red")))%>%
+  formatStyle(columns = c(3,4,5,6), fontSize = '90%')
 
 
-#as.POSIXlt("2019-10-26")$wday
+
 
 ```
 

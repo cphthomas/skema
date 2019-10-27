@@ -104,13 +104,8 @@ colnames(skema) = c('Uge', "Blok",'Ugestart','Mødetid','Forbered', 'Materiale',
 datatable(skema,style = 'bootstrap', rownames = FALSE, extensions = 'Buttons',class = 'cell-border hover compact', filter = 'top',escape = FALSE,  options = list(searchHighlight = TRUE,pageLength = 18,dom = 'Bfrt',language = list(url = '////cdn.datatables.net/plug-ins/1.10.20/i18n/Danish.json'),
     buttons = c('copy', 'csv', 'excel', 'pdf', 'print','colvis'),autoWidth = TRUE, columnDefs = list(list(className = 'dt-left', targets = 0:0))))%>%
   formatStyle('Uge',  backgroundColor = styleInterval(week(Sys.Date()+1-7), c('lightgray', 'lawngreen')), fontWeight = 'bold')%>%
-  formatStyle(
-  'Blok',
-  target = 'row',
-  color = styleEqual(0, 'white'),
-  backgroundColor = styleEqual(c(0,8), c('lightgray',"red"))
-)
-
+  formatStyle('Blok',  target = 'row',  color = styleEqual(0, 'white'),  backgroundColor = styleEqual(c(0,8), c('lightgray',"red")))%>%
+  formatStyle(columns = c(6), fontSize = '60%')
 
 
 
