@@ -94,7 +94,25 @@ Materiale <- c(
 <a href="https://quiz.tepedu.dk/mu2" target="_blank">&#9679 Quiz hypotesetests</a> <br>
 <a href="https://smartlearning.zoom.us/recording/play/O-hb0VPJzvhRCpzB50jabyc8gLHzsqRzTiiOS8LsmJC-ZrG_AQ4C4zPLgnhfBYvp?continueMode=true" target="_blank">&#9679 Video fra online mødet</a> <br>',
 
-"","",rep("",11))
+#40
+"",
+#41
+'
+<a href="filer/Materiale/7.zip">&#9679  Materiale 7</a> <br>
+<a href="https://vimeo.com/294953723/3144fb46d2" target="_blank">&#9679 Video opgaveark 7 opgave 1 a</a> <br>
+<a href="https://vimeo.com/294953580" target="_blank">&#9679 Video opgaveark 7 opgave 1 b</a> <br>
+<a href="https://vimeo.com/294953439" target="_blank">&#9679 Video opgaveark 7 opgave 1 c</a> <br>
+<a href="https://vimeo.com/294953808" target="_blank">&#9679 Video opgaveark 7 opgave 1 d</a><br>
+<a href="https://vimeo.com/294953870" target="_blank">&#9679 Video opgaveark 7 opgave 1 e 1</a><br>
+<a href="https://vimeo.com/294953349" target="_blank">&#9679 Video opgaveark 7 opgave 1 e 2</a><br>
+<a href="https://vimeo.com/294953847" target="_blank">&#9679 Video opgaveark 7 opgave 1 e 3</a><br>
+<a href="https://vimeo.com/294953060" target="_blank">&#9679 Video opgaveark 7 opgave 2</a><br>
+<a href="https://vimeo.com/294953771" target="_blank">&#9679 Video opgaveark 7 opgave 3 a</a><br>
+<a href="https://vimeo.com/294953672" target="_blank">&#9679 Video opgaveark 7 opgave 3 b 1</a><br>
+<a href="https://vimeo.com/294953218" target="_blank">&#9679 Video opgaveark 7 opgave 3 b 2</a><br>
+<a href="https://smartlearning.zoom.us/recording/play/8cDpVZIVEAWMFwR9NyHQPXYHTtMze4mJG6n9oLLQSkViedWQqgLBTpeka4SEKxeY?continueMode=true" target="_blank">&#9679 Video fra online mødet</a> <br>
+',
+rep("",11))
 
 
 
