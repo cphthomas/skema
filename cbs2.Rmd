@@ -1,5 +1,5 @@
 ---
-title: "CBS plan"
+title: "CBS"
 author: ""
 # date: " "
 output: html_document

@@ -1,11 +1,11 @@
 ---
-title: "CBS Online plan"
+title: "Smartlearning"
 author: ""
 # date: " "
 output: html_document
 ---
 
-# CBS Online plan
+
 
 ```{r test2, echo=FALSE, message=FALSE}
 library(DT)
