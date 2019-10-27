@@ -16,8 +16,19 @@ library(dplyr)
 Uge <-  35:52
 ugedage <- rep(0,18)
 ugedage[13] <- 2
-Ugestart <- MMWRweek2Date(rep(as.integer(format(Sys.Date(), "%Y")),length(Uge)), Uge, rep( 2,length(Uge)))
+ugedage[1] <- 5
+ugenavn <- c("mandag","tirsdag","onsdag","torsdag","fredag","lørdag","søndag")
+
+usugedage <- ugenavn[as.POSIXlt(MMWRweek2Date(rep(as.integer(format(Sys.Date(), "%Y")),length(Uge)), Uge, rep( 2,length(Uge))))$wday]
+uvugedage <- ugenavn[as.POSIXlt(MMWRweek2Date(rep(as.integer(format(Sys.Date(), "%Y")),length(Uge)), Uge, rep( 2,length(Uge)))+ugedage)$wday]
+
+
+Ugestart <- paste(usugedage,MMWRweek2Date(rep(as.integer(format(Sys.Date(), "%Y")),length(Uge)), Uge, rep( 2,length(Uge))))
 Blok <- c(1,"",2,"",3,"",4,"",5,6,7,"",8,"","","","","")
+
+
+
+
 Forbered <- c(
 "Databeskrivelse, 1 variabel",
 "Ingen holdundervisning",
@@ -40,32 +51,46 @@ Forbered <- c(
 
 
 
-Mødetid <- ifelse(Blok>=1,paste('<a href="https://smartlearning.zoom.us/j/7577575555" target="_blank">',"Klik her for at gå til onlinemødet",MMWRweek2Date(rep(as.integer(format(Sys.Date(), "%Y")),length(Uge)), Uge, rep( 2,length(Uge)))+ugedage,"kl. 20:00",'</a>'),"")
+Mødetid <- ifelse(Blok>=1,paste('<a href="https://smartlearning.zoom.us/j/7577575555" target="_blank">',"Klik her for at gå til onlinemødet",uvugedage,MMWRweek2Date(rep(as.integer(format(Sys.Date(), "%Y")),length(Uge)), Uge, rep( 2,length(Uge)))+ugedage,"kl. 20:00",'</a>'),"")
 
-Materiale <- c('<a href="filer/Materiale/1.zip">&#9679 Materiale 1</a> <br>
-<a href="filer/Data.zip">&#9679 Data</a> <br>
+Materiale <- c(
+#35
+'
+<a href="filer/Materiale/1.zip">&#9679 Materiale 1</a> <br>
+<a href="filer/Data.zip">&#9679 Alle Datasæt</a> <br>
 <a href="filer/Eksamensopgaver.zip">&#9679 Eksamens-opgaver</a> <br>
 <a href="https://www.edutest.dk/mod/quiz/view.php?id=57" target="_blank">&#9679 Selvtest deskriptiv statistik</a> <br>
+<a href="https://vimeo.com/231302659" target="_blank">&#9679 Video Kia Picanto</a><br>
+<a href="https://smartlearning.zoom.us/recording/play/oBH5EEbeNMLwDM-OPGfT45LQL74ovfl9Bdc4UaXLxIFKP58eUwyIkLdKLryroXoH?continueMode=true" target="_blank">&#9679 Video fra online mødet</a> <br>
+',
 
-
-<a href="https://vimeo.com/231302659" target="_blank">&#9679 Video Kia Picanto</a>',
-
-
+#36 Ingen uv
 "",
-'<a href="https://vimeo.com/289946643" target="_blank">&#9679  Elpærer video 1</a> <br>
+
+
+#37
+' 
+<a href="filer/Materiale/2 og 3.zip">&#9679  Materiale 2 og 3</a> <br>
+<a href="filer/Materiale/4.zip">&#9679 Materiale 4</a> <br>
+<a href="https://vimeo.com/289946643" target="_blank">&#9679  Elpærer video 1</a> <br>
 <a href="https://vimeo.com/289926190" target="_blank">&#9679 Elpærer video 2</a> <br>
 <a href="https://vimeo.com/289881866" target="_blank">&#9679 Elpærer video 3</a> <br>
 <a href="https://vimeo.com/289970285" target="_blank">&#9679 Jobtilfredshed video 4</a><br>
 <a href="https://www.edutest.dk/mod/quiz/view.php?id=61" target="_blank">&#9679 Selvtest binomialfordelingen</a> <br>
-<a href="https://vimeo.com/289881866" target="_blank">&#9679 Selvtest normalfordelingen</a> <br>
-<a href="https://vimeo.com/289881866" target="_blank">&#9679 Selvtest korrelation</a> <br>
-<a href="https://vimeo.com/289881866" target="_blank">&#9679 Selvtest korrelation</a> <br>
+<a href="https://www.edutest.dk/mod/quiz/view.php?id=67" target="_blank">&#9679 Selvtest normalfordelingen</a> <br>
+<a href="https://www.edutest.dk/mod/quiz/view.php?id=65" target="_blank">&#9679 Selvtest korrelation</a> <br>
+<a href="https://smartlearning.zoom.us/recording/share/9rFaW237j3LvPgDcshI08gciGULk7Byl3EYyAjdTqM6wIumekTziMw" target="_blank">&#9679 Video fra online mødet</a> <br>
 ',
+
+#38 Ingen uv
 '<a href="filer/Data/Affairs.jmp" target="_blank">&#9679 Affairs jmp fil</a> <br>
 <a href="filer/Data.zip" target="_blank">&#9679 Alle Datasæt</a> <br>
 <a href="filer/Data/" download>&#9679 Alle Datasæt</a> <br>
 <a href="/filer/Data/" download>&#9679 Alle Datasæt</a> <br>
-',"","","",rep("",11))
+',
+"",
+
+"","",rep("",11))
 
 
 
@@ -113,7 +138,7 @@ datatable(skema,style = 'bootstrap', rownames = FALSE, extensions = 'Buttons',cl
 )
 
 
-
+#as.POSIXlt("2019-10-26")$wday
 
 ```
 
