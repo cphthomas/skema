@@ -103,7 +103,7 @@ skema <- tibble(Uge,Blok,Ugestart,Mødetid,Forbered,Materiale,pensum)
 colnames(skema) = c('Uge', "Blok",'Ugestart','Mødetid','Forbered', 'Materiale','Pensum Agresti lærebogen')
 
 datatable(skema,style = 'bootstrap', rownames = FALSE, extensions = 'Buttons',class = 'cell-border hover compact', filter = 'top',escape = FALSE,  options = list(searchHighlight = TRUE,pageLength = 18,dom = 'Bfrt',language = list(url = '////cdn.datatables.net/plug-ins/1.10.20/i18n/Danish.json'),
-    buttons = c('copy', 'csv', 'excel', 'pdf', 'print','colvis'),autoWidth = TRUE, columnDefs = list(list(className = 'dt-left', targets = 0:0))))%>%
+    buttons = c('colvis','copy', 'csv', 'excel', 'pdf', 'print'),autoWidth = TRUE, columnDefs = list(list(className = 'dt-left', targets = 0:0))))%>%
   formatStyle('Uge',  backgroundColor = styleInterval(week(Sys.Date()+1-7), c('lightgray', 'lawngreen')), fontWeight = 'bold')%>%
   formatStyle(
   'Blok',
