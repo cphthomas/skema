@@ -92,10 +92,11 @@ Materiale <- c(
 <a href="https://quiz.tepedu.dk/stat1" target="_blank">&#9679 Quiz hypoteser</a> <br>
 <a href="https://quiz.tepedu.dk/mu" target="_blank">&#9679 Quiz konfidensintervaller</a> <br>
 <a href="https://quiz.tepedu.dk/mu2" target="_blank">&#9679 Quiz hypotesetests</a> <br>
-<a href="https://smartlearning.zoom.us/recording/play/O-hb0VPJzvhRCpzB50jabyc8gLHzsqRzTiiOS8LsmJC-ZrG_AQ4C4zPLgnhfBYvp?continueMode=true" target="_blank">&#9679 Video fra online mødet</a> <br>',
+<a href="https://smartlearning.zoom.us/recording/play/O-hb0VPJzvhRCpzB50jabyc8gLHzsqRzTiiOS8LsmJC-ZrG_AQ4C4zPLgnhfBYvp?continueMode=true" target="_blank">&#9679 Video fra online mødet</a> <br>
+',
 
 #40
-"",
+'',
 #41
 '
 <a href="filer/Materiale/7.zip">&#9679  Materiale 7</a> <br>
@@ -112,7 +113,27 @@ Materiale <- c(
 <a href="https://vimeo.com/294953218" target="_blank">&#9679 Video opgaveark 7 opgave 3 b 2</a><br>
 <a href="https://smartlearning.zoom.us/recording/play/8cDpVZIVEAWMFwR9NyHQPXYHTtMze4mJG6n9oLLQSkViedWQqgLBTpeka4SEKxeY?continueMode=true" target="_blank">&#9679 Video fra online mødet</a> <br>
 ',
-rep("",11))
+#42
+'',
+#43
+'
+<a href="filer/Materiale/8.zip">&#9679  Materiale 8</a> <br>
+<a href="https://www.edutest.dk/mod/quiz/view.php?id=95" target="_blank">&#9679 Selvtest Chi i anden test med investeringsfonde</a> <br>
+<a href="https://www.edutest.dk/mod/quiz/view.php?id=64" target="_blank">&#9679 Selvtest ANOVA Realkredit med videoløsning</a> <br>
+<a href="https://quiz.tepedu.dk/chi1" target="_blank">&#9679 Quiz Chi i anden test</a> <br>
+<a href="https://www.edutest.dk/mod/quiz/view.php?id=55" target="_blank">&#9679 Selvtest Chi i anden test</a> <br>
+<a href="https://quiz.tepedu.dk/anova" target="_blank">&#9679 Quiz ANOVA</a> <br>
+<a href="https://smartlearning.zoom.us/recording/play/vZkbrOCwHQc6sowcA4i2MGUyphZa7J-NIG8HKv8PPUx2NIGDq5LqV8tLF_fx2YMr?continueMode=true" target="_blank">&#9679 Video fra online mødet</a> <br>
+',
+#44
+'',
+#45
+'',
+#46
+'',
+#47
+'',
+rep("",5))
 
 
 
