@@ -126,9 +126,15 @@ Materiale <- c(
 <a href="https://smartlearning.zoom.us/recording/play/vZkbrOCwHQc6sowcA4i2MGUyphZa7J-NIG8HKv8PPUx2NIGDq5LqV8tLF_fx2YMr?continueMode=true" target="_blank">&#9679 Video fra online mødet</a> <br>
 ',
 #44
-'',
+'
+<a href="filer/Materiale/9.zip">&#9679  Materiale 9</a> <br>
+<a href="https://www.edutest.dk/mod/quiz/view.php?id=66" target="_blank">&#9679 Selvtest simpel lineær regression med videoløsning</a>
+',
 #45
-'',
+'
+<a href="filer/Materiale/10.zip">&#9679  Materiale 10</a> <br>
+<a href="https://quiz.tepedu.dk/reg1" target="_blank">&#9679 Quiz Multipel lineær regression</a> <br>
+',
 #46
 '',
 #47
