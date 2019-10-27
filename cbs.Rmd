@@ -41,8 +41,8 @@ Forbered <- c(
 "Analyse af mere end to grupper",
 "Regression med én forklarende variabel",
 "Regression med flere forklarende variable",
-"Ingen holdundervisning Opsamling fremmøde Lørdag/Søndag 16. og 17. november SP 8:55-16:05 Henrik Nielsen hn.mes@cbs.dk<br>Se info i kurset Dataanalyse (LECTURE) på Canvas",
-"Spørgetime en time hvor vi kan samle op på de sidste uklarheder dagen inden Eksamen torsdag 21. november",
+"Ingen holdundervisning Opsamling fremmøde Lørdag/Søndag 16. og 17. november SP 8:55-16:05",
+"Spørgetime<br>Eksamen torsdag 21. november",
 "Ingen undervisning",
 "Ingen undervisning",
 "Ingen undervisning",
@@ -118,8 +118,8 @@ Materiale <- c(
 #43
 '
 <a href="filer/Materiale/8.zip">&#9679  Materiale 8</a> <br>
-<a href="https://www.edutest.dk/mod/quiz/view.php?id=95" target="_blank">&#9679 Selvtest Chi i anden test med investeringsfonde</a> <br>
-<a href="https://www.edutest.dk/mod/quiz/view.php?id=64" target="_blank">&#9679 Selvtest ANOVA Realkredit med videoløsning</a> <br>
+<a href="https://www.edutest.dk/mod/quiz/view.php?id=95" target="_blank">&#9679 Selvtest Chi i anden test investering</a> <br>
+<a href="https://www.edutest.dk/mod/quiz/view.php?id=64" target="_blank">&#9679 Selvtest ANOVA Realkredit</a> <br>
 <a href="https://quiz.tepedu.dk/chi1" target="_blank">&#9679 Quiz Chi i anden test</a> <br>
 <a href="https://www.edutest.dk/mod/quiz/view.php?id=55" target="_blank">&#9679 Selvtest Chi i anden test</a> <br>
 <a href="https://quiz.tepedu.dk/anova" target="_blank">&#9679 Quiz ANOVA</a> <br>
@@ -128,7 +128,7 @@ Materiale <- c(
 #44
 '
 <a href="filer/Materiale/9.zip">&#9679  Materiale 9</a> <br>
-<a href="https://www.edutest.dk/mod/quiz/view.php?id=66" target="_blank">&#9679 Selvtest simpel lineær regression med videoløsning</a>
+<a href="https://www.edutest.dk/mod/quiz/view.php?id=66" target="_blank">&#9679 Selvtest simpel lineær regression</a>
 ',
 #45
 '
