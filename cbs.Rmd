@@ -72,10 +72,7 @@ Materiale <- c(
 ' 
 <a href="filer/Materiale/2 og 3.zip">&#9679  Materiale 2 og 3</a> <br>
 <a href="filer/Materiale/4.zip">&#9679 Materiale 4</a> <br>
-<a href="https://vimeo.com/289946643" target="_blank">&#9679  Elpærer video 1</a> <br>
-<a href="https://vimeo.com/289926190" target="_blank">&#9679 Elpærer video 2</a> <br>
-<a href="https://vimeo.com/289881866" target="_blank">&#9679 Elpærer video 3</a> <br>
-<a href="https://vimeo.com/289970285" target="_blank">&#9679 Jobtilfredshed video 4</a><br>
+<a href="https://vimeo.com/showcase/6533952" target="_blank">&#9679 Videoløsninger Materiale 4</a><br>
 <a href="https://www.edutest.dk/mod/quiz/view.php?id=61" target="_blank">&#9679 Selvtest binomialfordelingen</a> <br>
 <a href="https://www.edutest.dk/mod/quiz/view.php?id=67" target="_blank">&#9679 Selvtest normalfordelingen</a> <br>
 <a href="https://www.edutest.dk/mod/quiz/view.php?id=65" target="_blank">&#9679 Selvtest korrelation</a> <br>
@@ -100,17 +97,7 @@ Materiale <- c(
 #41
 '
 <a href="filer/Materiale/7.zip">&#9679  Materiale 7</a> <br>
-<a href="https://vimeo.com/294953723/3144fb46d2" target="_blank">&#9679 Video opgaveark 7 opgave 1 a</a> <br>
-<a href="https://vimeo.com/294953580" target="_blank">&#9679 Video opgaveark 7 opgave 1 b</a> <br>
-<a href="https://vimeo.com/294953439" target="_blank">&#9679 Video opgaveark 7 opgave 1 c</a> <br>
-<a href="https://vimeo.com/294953808" target="_blank">&#9679 Video opgaveark 7 opgave 1 d</a><br>
-<a href="https://vimeo.com/294953870" target="_blank">&#9679 Video opgaveark 7 opgave 1 e 1</a><br>
-<a href="https://vimeo.com/294953349" target="_blank">&#9679 Video opgaveark 7 opgave 1 e 2</a><br>
-<a href="https://vimeo.com/294953847" target="_blank">&#9679 Video opgaveark 7 opgave 1 e 3</a><br>
-<a href="https://vimeo.com/294953060" target="_blank">&#9679 Video opgaveark 7 opgave 2</a><br>
-<a href="https://vimeo.com/294953771" target="_blank">&#9679 Video opgaveark 7 opgave 3 a</a><br>
-<a href="https://vimeo.com/294953672" target="_blank">&#9679 Video opgaveark 7 opgave 3 b 1</a><br>
-<a href="https://vimeo.com/294953218" target="_blank">&#9679 Video opgaveark 7 opgave 3 b 2</a><br>
+<a href="https://vimeo.com/showcase/6533920" target="_blank">&#9679 Videoløsninger Materiale 7</a><br>
 <a href="https://smartlearning.zoom.us/recording/play/8cDpVZIVEAWMFwR9NyHQPXYHTtMze4mJG6n9oLLQSkViedWQqgLBTpeka4SEKxeY?continueMode=true" target="_blank">&#9679 Video fra online mødet</a> <br>
 ',
 #42

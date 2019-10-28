@@ -105,7 +105,7 @@ datatable(skema,style = 'bootstrap', rownames = FALSE, extensions = 'Buttons',cl
     buttons = c('copy', 'csv', 'excel', 'pdf', 'print','colvis'),autoWidth = TRUE, columnDefs = list(list(className = 'dt-left', targets = 0:0))))%>%
   formatStyle('Uge',  backgroundColor = styleInterval(week(Sys.Date()+1-7), c('lightgray', 'lawngreen')), fontWeight = 'bold')%>%
   formatStyle('Blok',  target = 'row',  color = styleEqual(0, 'white'),  backgroundColor = styleEqual(c(0,8), c('lightgray',"red")))%>%
-  formatStyle(columns = c(6), fontSize = '60%')
+  formatStyle(columns = c(6), fontSize = '70%')
 
 
 
